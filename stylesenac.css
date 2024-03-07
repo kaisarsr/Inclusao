@@ -1,0 +1,117 @@
+    body {
+        margin: 0;
+        max-width: 100%;
+        
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      
+    }
+
+    header h2 {
+        font-size: 26px;
+        text-align: center;
+    }
+    header img {
+        max-width: 100%;
+        width: 5%;
+        display: flex;
+        position: absolute;
+        top: 1%;
+        right: 1%;
+    }
+    header {
+        max-width: 100%;
+        display: flex;
+        background-color: orange;
+        justify-content: center;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .container {
+        max-width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 5%;
+    margin-left: 5%;
+        
+    }
+    .container h3 {
+        max-width: 100%;
+        text-align: center;
+    }
+    .boxesquerdo {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+       
+   
+    }
+    .boxesquerdo input {
+        max-width: 100%;
+        margin-bottom: 3%;
+        padding: 2%;
+        display: flex;
+        border-radius: 20px;
+        
+    }
+    .txt {
+        font-size: 20px;
+        display: flex;
+        margin: 2%;
+        text-align: center;
+    }
+    .all {
+        display: flex;
+        align-items: normal;
+        flex-direction: column;
+        font-size: 20px;
+
+    }
+    .dificuldades {
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+   
+    }
+    .cadastro {
+        width: 20%;
+        border-radius: 20px;
+        background-color: orange;
+        color: black;
+    }
+
+    footer {
+        background-color: rgba(0, 103, 238, 0.699);
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    
+
+    @media (max-width:536px) {
+        main {
+            flex-direction: column;
+        }
+        .boxesquerdo {
+            flex-direction: column;
+        }
+        .cadastro{
+            width: 100%;
+        }
+        .dificuldades {
+            width: 100%;
+        }
+        header img {
+            width: 30% ;
+        }   
+    }
+    @media  (max-width:800px) {
+        header img {
+            width: 15%;
+        }
+        
+    }
